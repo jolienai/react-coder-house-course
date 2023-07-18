@@ -13,3 +13,17 @@
 npx create-react-app {app_name}
 
 ```
+
+## using vite
+
+```bash
+npm create vite@latest
+
+```
+
+## using create-next-app
+
+```bash
+
+
+```
