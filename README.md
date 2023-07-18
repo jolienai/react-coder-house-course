@@ -2,10 +2,10 @@
 
 ## Development environment
 
-    - install nodejs
-    - instal visual studio code
+    - Install nodejs
+    - Install Visual Studio Code
         - Extensions:
-            -
+            - ??
 
 ## create react app using cli crete-rect-app
 
@@ -24,6 +24,6 @@ npm create vite@latest
 ## using create-next-app
 
 ```bash
-
+npx create-next-app@latest next-app
 
 ```
