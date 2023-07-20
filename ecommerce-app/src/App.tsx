@@ -1,18 +1,23 @@
 import React from 'react';
-import {Menu, MenuItem} from './components/Menu';
+import {Navbar, NavbarItem} from './components/Navbar';
 
 const App: React.FC = () => {
-  const menuItems: MenuItem[] = [
+  const navbarItems: NavbarItem[] = [
     { id: 1, name: 'Home', link: '/' },
     { id: 2, name: 'Shop', link: '/shop' },
     { id: 3, name: 'Contact', link: '/contact' },
+    { id: 4, name: 'Login', link: '/login' },
   ];
 
   return (
-    <div>
-      <h1>eCommerce Website</h1>
-      <Menu items={menuItems} />
-    </div>
+    <>
+      <div>
+        <Navbar items={navbarItems} />
+        <div className="container">
+          {/* Rest of your application content goes here */}
+        </div>
+      </div>
+    </>
   );
 };
 
