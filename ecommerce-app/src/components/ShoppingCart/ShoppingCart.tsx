@@ -20,9 +20,9 @@ const ShoppingCart: React.FC<ShoppingCartProps> = () => {
   // TODO: add styles to the component
   return (
     <div className="shopping-cart">
-      <img src="https://img.freepik.com/free-icon/shopping-cart-checkered-design_318-50865.jpg?t=st=1690321014~exp=1690321614~hmac=3741510b8fe2e1410aee9ef0e3bc5819708f05da95a82eb196c95e07c0980b2d" 
+      <img src="https://img.freepik.com/free-icon/shopping-cart-checkered-design_318-50865.jpg" 
         alt="Shopping Cart" width={40} height={40} />
-      <span>{state.itemCount} items</span>
+      <span>{state.itemCount}</span>
       {/* <span>Some text here</span>
       <button onClick={handleAddToCart}>Add to Cart</button> */}
     </div>
