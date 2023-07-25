@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar as RSNavbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import ShoppingCart from '../../components/ShoppingCart/ShoppingCart';
 
 export type NavbarItem = {
   id: number;
@@ -22,6 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ items }) => {
           </NavItem>
         ))}
       </Nav>
+      <ShoppingCart/>
     </RSNavbar>
   );
 };

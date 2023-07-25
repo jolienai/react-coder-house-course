@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, NavbarItem} from './components/Navbar';
+import {Navbar, NavbarItem} from './components/Navbar/Navbar';
 
 const App: React.FC = () => {
   const navbarItems: NavbarItem[] = [
